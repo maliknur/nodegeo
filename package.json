@@ -1,0 +1,34 @@
+{
+  "name": "nodegeo",
+  "version": "0.0.1",
+  "description": "Geo service based on node.js and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maliknur/nodegeo.git"
+  },
+  "keywords": [
+    "geo",
+    "mongo",
+    "node",
+    "map",
+    "location"
+  ],
+  "author": "Malik Nur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maliknur/nodegeo/issues"
+  },
+  "homepage": "https://github.com/maliknur/nodegeo",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mongoose": "^4.3.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "node-inspector": "^0.12.5"
+  }
+}
