@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "mocha": "^2.3.0",
+    "superagent": "^1.7.2"
     "node-inspector": "^0.12.5"
   }
 }
