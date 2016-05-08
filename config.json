@@ -1,0 +1,24 @@
+{
+  "env": "development",
+  "log": {
+    "file": {
+      "type": "file",
+      "filename": "./application.log",
+      "category": "file-logger",
+      "level": "INFO",
+      "maxLogSize": 2097152,
+      "backups": 10
+    },
+    "console": {
+      "type": "console",
+      "level": "INFO"
+    }
+  },
+  "db": {
+    "db": "mongodb://localhost:27017/NodeGeo"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 3002
+  }
+}
