@@ -25,30 +25,11 @@
   "homepage": "https://github.com/maliknur/nodegeo",
   "dependencies": {
     "express": "^4.12.4",
-    "mongoose": "^4.3.7",
-    "body-parser": "^1.14.1",
-    "express-validator": "^2.14.0",
-    "fast-json-patch": "^0.5.4",
-    "log4js": "^0.6.27",
-    "log4js-node-mongodb": "^0.1.5",
-    "request": "^2.65.0",
-    "sinon-as-promised": "^4.0.0"
+    "mongoose": "^4.3.7"
   },
   "devDependencies": {
     "mocha": "^2.3.0",
-    "superagent": "^1.7.2",
-    "node-inspector": "^0.12.5",
-    "chai": "^3.0.0",
-    "del": "^1.2.0",
-    "gulp": "^3.9.0",
-    "gulp-mocha": "^2.1.2",
-    "gulp-node-debug": "0.0.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-util": "^3.0.6",
-    "http-status": "0.2.0",
-    "mocha-jenkins-reporter": "^0.1.9",
-    "mocha-teamcity-reporter": "^0.0.4",
-    "node-mocks-http": "^1.4.3",
-    "sinon": "^1.15.4"
+    "superagent": "^1.7.2"
+    "node-inspector": "^0.12.5"
   }
 }
